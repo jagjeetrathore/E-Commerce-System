@@ -18,7 +18,12 @@ After removing mismatched cancelled orders, the remaining cancelled orders and t
 ![RecencyCluster](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/Recency_Cluster.png)
 ![RevenueCluster](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/Revenue_Cluster.png)
 ### Machine Learning Model for LTV Prediction
+
+
+
+
 #### Model Evaluation:
+![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
 
 
 
