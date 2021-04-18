@@ -1,2 +1,3 @@
-# Image-Recognition
-Train Image Recognition using AI 
+# Customer Life Time Value Prediction (CLTV)
+
+
