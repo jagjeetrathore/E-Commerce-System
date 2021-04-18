@@ -22,8 +22,10 @@ After removing mismatched cancelled orders, the remaining cancelled orders and t
 
 
 
-#### Model Evaluation:![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
-![ROC_Curve_Analysis]()
+#### Model Evaluation: Comparision of  Classifiers with and without Hyperparamter tunning
+
+![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
+![ROC_Curve_Analysis](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/ROC_Curve_Analysis.png)
 
 
 
