@@ -17,15 +17,23 @@ After removing mismatched cancelled orders, the remaining cancelled orders and t
 ![FrequencyCluster](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/Frequency_Cluster.png)
 ![RecencyCluster](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/Recency_Cluster.png)
 ![RevenueCluster](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/Revenue_Cluster.png)
-### Machine Learning Model for LTV Prediction
-
-
-
-
+### Machine Learning Model for LTV Prediction 
+Prediction of Life Time Value
+* Define a time frame for customers' lifetime value calculation. This depends upon business goals, for this we choose 6 months.
+* Define the predictors that we will use to predict Future and create them.     	
+* Calculate LTV for ML Model, use RFM scores as predictors for each customerID, utilize 3 months of data for calculating RFM, to predict next 6 months.
+* Lifetime Value calculation: Calculate 6 month LTV for each customer which we will use for training our model. The revenue will become our LTV. Now we need to merge the 2 dataframe to see correlation with LTV and our predictors.
 #### Model Evaluation: Comparision of  Classifiers with and without Hyperparamter tunning
-
 ![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
 ![ROC_Curve_Analysis](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/ROC_Curve_Analysis.png)
+### Conclusion:
+LTV segments describe specific customer purchasing patterns and behaviour which is very useful for differentiated target marketing. We also predicted each segment with a 0.91 F1 score using the Extra Trees Classifier. This prediction model may be used to classify new customers to receive the appropriate marketing offers. 
+
+Through analysis and model building we discovered that ~40% of the customers within this dataset had only one transaction. These may be consumers performing a guest checkout. (or First time buyers) These customers are important to identify and target for customer retention strategies, requiring further investigation and business intelligence.
+
+The dataset was limited to only 13 months of transactional data, however, we prefer it to be a larger time frame as this may have shed light on undiscovered areas for analysis such as seasonality, annually or bi-annual analysis, or customer loyalty. Insights into how the e-commerce system handles the data manipulation of transactions such as bonuses, coupons, discounts, cancellations and refunds would be helpful in creating a cleaner data file.
+There were also significant challenges encountered while cleaning the data as we often found transactions with non-zero quantity and a unit price of zero, or product descriptions with value ‘Manual’ etc.
+
 
 
 
