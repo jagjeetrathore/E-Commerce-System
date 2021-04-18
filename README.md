@@ -22,8 +22,8 @@ After removing mismatched cancelled orders, the remaining cancelled orders and t
 
 
 
-#### Model Evaluation:
-![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
+#### Model Evaluation:![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
+https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png
 
 
 
