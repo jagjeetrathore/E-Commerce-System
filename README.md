@@ -14,10 +14,9 @@ I opted to only capture totals or Invoice totals (cart price) greater than 0. Th
 ![RevenueCluster](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/Revenue_Cluster.png)
 ### Machine Learning Model for LTV Prediction 
 Prediction of Life Time Value
-* Define a time frame for customers' lifetime value calculation. This depends upon business goals, for this we choose 6 months.
-* Define the predictors that we will use to predict Future and create them.     	
-* Calculate LTV for ML Model, use RFM scores as predictors for each customerID, utilize 3 months of data for calculating RFM, to predict next 6 months.
-* Lifetime Value calculation: Calculate 6 month LTV for each customer which we will use for training our model. The revenue will become our LTV. Now we need to merge the 2 dataframe to see correlation with LTV and our predictors.
+* Define a time frame for customers' lifetime value calculation. This depends upon business goals, for this I choose 6 months.
+* Lifetime Value calculation: Calculate 6 month LTV for each customer which I will use for training the model. 
+![Correlation between RFM and LTV](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/RFM_LTV.png)
 #### Model Evaluation: 
 **Comparision of  Classifiers with and without Hyperparamter tunning**
 ![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
