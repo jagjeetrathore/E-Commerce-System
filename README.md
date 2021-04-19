@@ -1,3 +1,5 @@
+
+# Online Retail 
 ## Objectives
  **Primary objective** is to segment customers based on their RFM (Recency, Frequency, Monetary value) metrics . RFM is a marketing analysis tool used to identify a firm's best clients, based on the nature of their spending habits.
  **Secondary  objective** is to build a machine learning model to predict the customer Lifetime Value (LTV), a metric that indicates the total revenue a business can reasonably expect from a single customer account. LTV is often considered the “Golden Metric” for online retailers, as it helps predict future revenue and measures long-term business success. I find that there is a positive correlation between RFM score and LTV.
@@ -18,6 +20,7 @@ Prediction of Life Time Value
 * Lifetime Value calculation: Calculate 6 month LTV for each customer which I will use for training the model. 
 ![Correlation between RFM and LTV](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/RFM_LTV.png)
 ![LTV Segments](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/LTV_Segment_Percentage.png)
+**label number 2 is the best with high mean and 1 is the worst with lowest means**
 #### Model Evaluation: 
 **Comparision of  Classifiers with and without Hyperparamter tunning**
 ![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
