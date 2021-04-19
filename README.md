@@ -1,5 +1,5 @@
 
-# Source: Online Retail Transactional Dataset
+#### Source: Online Retail Transactional Dataset
 ## Objectives
  **Primary objective** is to segment customers based on their RFM (Recency, Frequency, Monetary value) metrics . RFM is a marketing analysis tool used to identify a firm's best clients, based on the nature of their spending habits.
  **Secondary  objective** is to build a machine learning model to predict the customer Lifetime Value (LTV), a metric that indicates the total revenue a business can reasonably expect from a single customer account. LTV is often considered the “Golden Metric” for online retailers, as it helps predict future revenue and measures long-term business success. I find that there is a positive correlation between RFM score and LTV.
