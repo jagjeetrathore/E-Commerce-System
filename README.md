@@ -23,7 +23,8 @@ Prediction of Life Time Value
 * Define the predictors that we will use to predict Future and create them.     	
 * Calculate LTV for ML Model, use RFM scores as predictors for each customerID, utilize 3 months of data for calculating RFM, to predict next 6 months.
 * Lifetime Value calculation: Calculate 6 month LTV for each customer which we will use for training our model. The revenue will become our LTV. Now we need to merge the 2 dataframe to see correlation with LTV and our predictors.
-#### Model Evaluation: Comparision of  Classifiers with and without Hyperparamter tunning
+#### Model Evaluation: 
+**Comparision of  Classifiers with and without Hyperparamter tunning**
 ![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
 ![ROC_Curve_Analysis](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/ROC_Curve_Analysis.png)
 ### Conclusion:
