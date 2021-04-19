@@ -17,6 +17,7 @@ Prediction of Life Time Value
 * Define a time frame for customers' lifetime value calculation. This depends upon business goals, for this I choose 6 months.
 * Lifetime Value calculation: Calculate 6 month LTV for each customer which I will use for training the model. 
 ![Correlation between RFM and LTV](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/RFM_LTV.png)
+![LTV Segments](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/LTV_Segment_Percentage.png)
 #### Model Evaluation: 
 **Comparision of  Classifiers with and without Hyperparamter tunning**
 ![Classifiers_Comparison](https://github.com/jagjeetrathore/E-Commerce-System/blob/master/images/model_comparison.png)
